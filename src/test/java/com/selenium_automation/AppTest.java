@@ -15,6 +15,7 @@ public class AppTest
     	int b = 'A';
     	int c = a+b;
     	System.out.print(c +" : "+ b+a);
+    	System.out.println("Test Executed");
     	Assert.assertFalse(c!=b+a, "a+b!=b+a");
     }
 }
