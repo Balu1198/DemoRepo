@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_Selenium]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.reportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test_Automation(failed)">
+    <classes>
+      <class name="com.selenium_automation.AppTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.selenium_automation.AppTest -->
+    </classes>
+  </test> <!-- Test_Automation(failed) -->
+</suite> <!-- Failed suite [Suite_Selenium] -->
